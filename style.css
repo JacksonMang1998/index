@@ -243,5 +243,92 @@ img{
     height: 77vh;
    
 }
-
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1400px){
+.left{
+    height: 72rem;
+}
+.one .overlay{
+    height: 23rem;
+    bottom:23rem;
+}
+.one .overlay h2,.one .overlay h5{
+    top:9rem;
+}
+.two .container{
+    height: 45rem;
+    position: relative;
+    bottom: 5rem;
+}
+.two .overlay h2, .two .overlay h5{
+    top:25rem;
+}
+.three .overlay{
+    bottom: 22rem;
+    height: 22rem;
+}
+.three .container{
+    height: 350px;
+}
+.four .overlay h2, .four .overlay h5{
+    top:13rem;
+} 
+.four .container{
+    height: 328px;
+}
+.five .overlay h2, .five .overlay h5{
+    top:13rem;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1200px){
+    .pictures{
+        transform: scale(.9);
+        width: 80%;
+        position: relative;
+        
+    }
+    .left{
+        height: 87rem;
+    }
+    .one .overlay{
+        bottom:32rem;
+        height: 32rem;
+    }
+    .one .overlay h2, .one .overlay h5{
+        top: 13rem;
+    }
+    .two .container{
+        top: 4rem;
+        height: 50rem;
+    }
+    .three .overlay{
+        bottom:31rem;
+        height: 25rem;
+    }
+    .three .container{
+        height: 25rem;
+    }
+    .four .container{
+        height: 26rem;
+    }
+    .four .overlay{
+        bottom:28.5rem;
+        height: 26rem;
+    }
+    .five .container{
+        height: 26rem;
+    }
+    .five .overlay{
+        bottom:28.5rem;
+        height: 26rem;
+    }
+    .five .overlay h2, .five .overlay h5{
+        top: 11rem;
+    }
+    .full{
+        height: 10rem;
+    }
+    
+}
 
