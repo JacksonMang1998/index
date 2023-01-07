@@ -118,6 +118,8 @@ img{
 .two .container{
     max-height:800px;
     overflow-y: hidden;
+    position: inherit;
+    top:0.7rem;
 }
 .two .container img{
     height: 100%;
@@ -258,7 +260,7 @@ img{
 .two .container{
     height: 45rem;
     position: relative;
-    bottom: 5rem;
+    top: -5.5rem;
 }
 .two .overlay h2, .two .overlay h5{
     top:25rem;
@@ -278,6 +280,13 @@ img{
 }
 .five .overlay h2, .five .overlay h5{
     top:13rem;
+}
+.credit{
+    position: relative;
+    bottom: 2rem;
+}
+.credit .col-xl-1{
+    width: 7rem;
 }
 }
 /*========================MEDIA QUEIRES ===========================*/
@@ -330,5 +339,107 @@ img{
         height: 10rem;
     }
     
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:992px){
+    .pictures{
+        position: relative;
+        bottom:8rem;
+    }
+    .one .overlay{
+        height: 23rem;
+        bottom: 23rem;
+    }
+    .one .overlay h2, .one .overlay h5{
+        top: 10rem;
+    }
+    .two{
+        position: relative;
+        top:-2rem
+    }
+    .three .overlay{
+        bottom:22rem;
+        height: 22rem;
+    }
+    .four .overlay{
+        height: 20.5rem;
+        bottom:20.5rem;
+    }
+    .four .overlay h2, .four .overlay h5{
+        top:8rem;
+    }
+    .five .overlay{
+        bottom:20.5rem;
+        height: 20.5rem;
+    }
+    .five .overlay h2, .five .overlay h5{
+        top: 8rem;
+    }
+    .right{
+        position: relative;
+        top:-2rem;
+    }
+    .five{
+        position: inherit;
+        top:-1rem;
+    }
+    .credit{
+        position: relative;
+        top:-23rem;
+    }
+}
+    /*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:768px){
+    .left{
+        position: relative;
+        top:3rem;
+        height: 74rem;
+    }
+    .one .container{
+        height: 16rem;
+    }
+    .one .overlay{
+        height: 16rem;
+        bottom:16rem;
+    }
+    .one .overlay h2, .one .overlay h5{
+        top:6rem;
+    }
+    .two .container{
+        height: 33rem;
+    }
+    .two .overlay h2, .two .overlay h5{
+        top:30rem;
+    }
+    .three .overlay h2, .three .overlay h5{
+        top:12rem;
+    }
+    .four .overlay h2, .four .overlay h5{
+        top:11rem;
+    }
+    .five .overlay h2, .five .overlay h5{
+        top:11rem;
+    }
+    .right{
+        position: relative;
+        top:-13rem;
+        height: 50rem;
+    }
+    .four{
+        position: relative;
+        top:-4.5rem;
+    }
+    .four .container{
+        height: 15rem;
+    }
+    .five{
+        position: relative;
+        top:-5rem;
+        height: 1rem;
+    }
+    .five .container{
+        position: relative;
+        height: 14.3rem;
+    }
 }
 
