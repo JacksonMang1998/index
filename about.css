@@ -1,0 +1,43 @@
+.intro{
+    width: 62vw;
+    
+}
+.second{
+    height: 38vw;
+    width:68vw;
+}
+.credit{
+    width: 62vw;
+  
+}
+.img-fluid{
+    overflow: hidden;
+    object-fit: cover;
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1200px){
+.img-fluid{
+    overflow: hidden;
+    width: 30vw;
+    position: inherit;
+    object-fit: contain;
+}
+.credit{
+    position: relative;
+    top:23vw;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:900px){
+    .credit{
+        position: relative;
+        top:43vw;
+    }
+    }
+    /*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:615px){
+    .credit{
+        position: relative;
+        top:78vw;
+    }
+    }
