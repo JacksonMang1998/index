@@ -1,10 +1,51 @@
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    bottom:0;
+}
+.navb{
+    color:black;
+    font-family:'cormorant Garamond',serif;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    transition: all 100ms ease;
+}
+.navc{
+    color:black;
+    font-family:'cormorant Garamond',serif;
+    text-decoration: none;
+    position: relative;
+    letter-spacing: 0.5px;
+    padding: 0 10px;
+    transition: all 100ms ease;
+}
+h1{
+    font-size: 40px;
+    font-weight: 600;
+    font-family: "monserrat" monospace, sans-serif;
+}
+h6{
+    font-size: 17px;
+    line-height: 1.7rem;
+}
+h7{
+    font-size: 20px;
+    text-decoration: none;
+}
+h8{
+    font-size: 20px;
+}
 .intro{
-    width: 62vw;
+    width: 58vw;
     
 }
 .second{
-    height: 38vw;
-    width:68vw;
+    height: 63%;
+    width: 62vw;
+    position: relative;
+    right: -0.3vw;
 }
 .credit{
     width: 62vw;
@@ -14,8 +55,72 @@
     overflow: hidden;
     object-fit: cover;
 }
+.graphic{
+    position: relative;
+    top:0vw;
+}
+.navc:hover{
+    color:#F8c9ca;
+    transform: scale(105%);
+    transition: all 100ms ease;
+}
+.navb:after{
+    content: "";
+    position: absolute;
+    background-color: #F8c9ca;
+    height: 3px;
+    width: 50px ;
+    left: 10px;
+    bottom: -2px;
+    transition: all 100ms ease;
+}
+.full{
+    height: 49vw;
+}
+.credit{
+    position: relative;
+    width: 57vw;
+}
+.about{
+    margin:1rem 0vw 0 0vw;
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1920px){
+.intro{
+    width: 60vw;
+}
+.diana{
+    width: 48vw;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1600px){
+.diana{
+    width: 47.3vw;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1400px){
+.credit{
+    position: relative;
+    top:10vw;    
+}
+.diana{
+    width: 47vw;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1300px){
+.diana{
+    width: 46vw;
+}
+}
+
 /*========================MEDIA QUEIRES ===========================*/
 @media screen and (max-width:1200px){
+.intro{
+    width: 67vw;
+}
 .img-fluid{
     overflow: hidden;
     width: 30vw;
@@ -24,16 +129,77 @@
 }
 .credit{
     position: relative;
-    top:23vw;
+    top:25vw;
+    width: 62vw;
 }
+.diana{
+    width: 51vw;
+}
+.col-xl-5 h2{
+    line-height: 3rem;
+    padding-top: 2.5rem;
+}
+.second{
+    height: 100%;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1050px){
+    .diana{ 
+        width: 49vw;
+    }
 }
 /*========================MEDIA QUEIRES ===========================*/
 @media screen and (max-width:900px){
     .credit{
         position: relative;
         top:43vw;
+        width: 60vw;
+    }
+    .diana{
+        width: 49vw;
     }
     }
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:900px){
+    .diana{
+        width: 48vw;
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:850px){
+    .diana{
+        width: 48vw;
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:800px){
+    .diana{
+        width: 47vw;
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:710px){
+    .credit{
+        position:relative;
+        top:50vw
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:700px){
+    .diana{
+        width: 46vw;
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:650px){
+    .diana{
+        width: 44vw;
+    }
+    .second{
+        height: 110%;
+    }
+}
     /*========================MEDIA QUEIRES ===========================*/
 @media screen and (max-width:615px){
     .credit{
@@ -41,3 +207,42 @@
         top:78vw;
     }
     }
+        /*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:578px){
+    .work{
+        margin: 4.4rem 0 0 0;
+    }
+    .about{
+        position: relative;
+        left:17rem;
+        width: 6rem;
+    }
+    .test .graphic{
+        position: absolute;
+        top:9rem;
+        width: 13rem;
+    }
+    .work{
+        position: relative;
+        left:5rem;
+    }
+}
+      /*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:576px){
+    .work{
+        margin: 4.5rem 0 0 0;
+        position: relative;
+        left: 0.7rem;
+        width: 6rem;
+    }
+    .about{
+        position: relative;
+        left:17rem;
+        width: 6rem;
+    }
+    .test .graphic{
+        position: absolute;
+        top:9rem;
+        width: 13rem;
+    }
+}
