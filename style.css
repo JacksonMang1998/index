@@ -1,6 +1,7 @@
 body{
     font-family: 'Montserrat', sans-serif;
     bottom:0;
+    
 }
 .navb{
     color:black;
@@ -25,9 +26,9 @@ body{
     position: absolute;
     background-color: #F8c9ca;
     height: 3px;
-    width: 75% ;
-    left: 7px;
-    bottom:-5px;
+    width: 45px ;
+    left: 9px;
+    bottom:8px;
     transition: all 100ms ease;
 }
 .navb:after{
@@ -41,22 +42,23 @@ body{
     transition: all 100ms ease;
 }
 .nava:hover::after{
-    width: 75%;
+    width: 45px;
 }
 .navb:hover{
-    color:black;
+    color:#F8c9ca;
     transform: scale(105%);
     transition: all 100ms ease;
 }
 .nava:hover{
-    color:black;
+    color:#F8c9ca;
     transform: scale(105%);
     transition: all 100ms ease;
 }
 h1{
     font-size: 40px;
-    font-weight:500;
-    font-family: 'monserrat' monospace, sans-serif;
+    font-weight: 600;
+    letter-spacing:0 ;
+    font-family: "monserrat" monospace, sans-serif;
 }
 h6{
     font-size: 17px;
@@ -72,20 +74,28 @@ h8{
     background:none;
 }
 .test{
-    padding:0 2rem;
+    margin: 0 0 0 0.3rem;
     width: 100%;
     
+}
+.diana a{
+    color:black;
+    text-decoration: none;
+    cursor: pointer;
 }
 .diana{
     background:none;
     background:none;
     
+    
 }
 .work{
     background:none;
+    margin: 1rem 0 0 0;
 }
 .about{
     background: none;
+    margin:1rem 0.5rem 0 -0.5rem;
 }
 .graphic{
     background:none;
@@ -111,17 +121,20 @@ img{
 }
 .left{
     background:none;
-    height: 1350px;
+    
 }
 .right{
     background:none;
     position: relative;
     top:1.5rem;
+   
 }
 .pictures{
     width: 69vw;
     height: 69vw;
+    transition: all 500ms ease;
 }
+
 .credit{
     width: 67vw;
     position: relative;
@@ -136,10 +149,13 @@ img{
 /*================================================= ONE */
 .one{
     text-decoration:none;
+    
+    
 }
 .one .container{
-    max-height:23vw;
+    max-height:29rem; /*23vw*/
     overflow-y: hidden;
+    
 
 }
 .one .overlay{
@@ -149,6 +165,7 @@ img{
     height: 26vw;
     transition: all 300ms ease;
     opacity: 0;
+    
 
     
 }
@@ -158,6 +175,7 @@ img{
     background:#F4C1C7;
     transition:all 300ms ease;
     opacity: 100%;
+    
 }
 .one .overlay h2, .one .overlay h5{
     position: relative;
@@ -165,10 +183,11 @@ img{
 }/*NEW PORTION NEED TO UPDATE ON OTHER OVERLAYS*/
 .one .overlay h5{
     font-weight: 400;
+    top:14vw
 }
 .one .overlay h2{
     font-weight: 500;
-    top:13vw;
+    top:14vw;
 }
 
 
@@ -180,7 +199,7 @@ img{
     top:0vw;
 }
 .two .container{
-    height:42vw;
+    height:55rem;/*42vw*/
     overflow-y: hidden;
     position: inherit;
 }
@@ -190,7 +209,7 @@ img{
 }
 .two .overlay{
     position:relative;
-    bottom:45vw;
+    bottom:48vw;
     height:51vw;
     transition: all 300ms ease;
     opacity: 0;
@@ -205,14 +224,15 @@ img{
 }
 .two .overlay h2, .two .overlay h5{
     position: relative;
-    top:20vw;
+    top:25vw;
 }
 .two .overlay h5{
     font-weight: 400;
+    top:24vw
 }
 .two .overlay h2{
     font-weight: 500;
-    top:18.5vw;
+    top:23.5vw;
 }
 /*================================================= THREE*/
 .three{
@@ -222,7 +242,7 @@ img{
     top:-1.2vw;
 }
 .three .container{
-    height:21vw;
+    height:28rem; /*21vw*/
     overflow-y: hidden;
 }
 .three .overlay{
@@ -246,6 +266,7 @@ img{
 }
 .three .overlay h5{
     font-weight: 400;
+    top:13vw
 }
 .three .overlay h2{
     font-weight: 500;
@@ -260,7 +281,7 @@ img{
     top: -0.2vw;
 }
 .four .container{
-    max-height:20vw;
+    max-height:26rem;/*20vw*/
     overflow-y: hidden;
 }
 .four .overlay{
@@ -284,10 +305,11 @@ img{
 }
 .four .overlay h5{
     font-weight: 400;
+    top:14vw;
 }
 .four .overlay h2{
     font-weight: 500;
-    top:13vw;
+    top:14vw;
 }
 /*================================================= FIVE*/
 .five{
@@ -298,7 +320,7 @@ img{
     text-decoration: none;
 }
 .five .container{
-    max-height:20vw;
+    max-height:25rem;/*20vw*/
     overflow-y: hidden;
 }
 .five .overlay{
@@ -322,53 +344,103 @@ img{
 }
 .five .overlay h5{
     font-weight: 400;
+    top:14vw;
 }
 .five .overlay h2{
     font-weight: 500;
-    top:13vw;
+    top:14vw;
 }
 /*========================Second Part==============================*/
 .second span{
    color:#A8AAAC;
 }
 .second{
-    height: 77vh;
+    height: 100%;
    
 }
 /*========================MEDIA QUEIRES ===========================*/
-@media screen and (max-width:1400px){
-.left{
-    height: 72rem;
+@media screen and (max-width:1920px){
+.b{
+    height: 60vw;
 }
+.one .container{
+    height: 25vw;
+}
+.one .overlay h2, .one .overlay h5{
+    position: relative;
+    top:13vw;
+}
+.two .container{
+    height: 46vw;
+}
+.three .container{
+    height: 23.5vw;
+}
+.four .container{
+    height: 22vw;
+}
+.five .container{
+    height:  22vw;
+}
+.five .overlay h2, .five .overlay h5{
+    top: 13vw;
+}
+.credit{
+    padding:3vw 0 0 0;
+}
+.pictures{
+    transition:all 500ms ease;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1750px){
+.three .container{
+    position: relative;
+    top:-
+    0.3vw;
+}
+.pictures{
+    transition:all 500ms ease;
+}
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1400px){
+
 .one .overlay{
-    height: 23vw;
-    bottom:23vw;
+    height: 25vw;
+    bottom:25vw;
 }
 .one .overlay h2,.one .overlay h5{
     top:9rem;
 }
 .two .container{
-    height: 45vw;
+    height: 46vw;
     position: relative;
 }
 .two .overlay h2, .two .overlay h5{
-    top:20vw;
+    top:23vw;
+}
+.two .overlay{
+    bottom:50vw;
+    height: 60vw;
 }
 .three .overlay{
-    bottom: 22vw;
-    height: 20vw;
+    bottom: 26vw;
+    height: 26vw;
 }
 .three .container{
-    height: 350px;
+    position:relative;
+    top: -0.6vw;
+    height: 23.5vw;
 }
 .four .overlay h2, .four .overlay h5{
     top:13vw;
 } 
 .four .container{
-    height: 328px;
+    height: 22vw;
 }
 .five .overlay h2, .five .overlay h5{
-    top:13rem;
+    top:13vw;
 }
 .credit{
     position: relative;
@@ -377,49 +449,82 @@ img{
 .credit .col-xl-1{
     width: 7rem;
 }
+.pictures{
+    transition:all 500ms ease;
+}
+
 }
 /*========================MEDIA QUEIRES ===========================*/
 @media screen and (max-width:1200px){
-    .pictures{
-        transform: scale(.9);
-        width: 80%;
-        position: relative;
-        
-    }
-    .left{
-        height: 87rem;
+
+    .one .container{
+        height: 21vw;
+        overflow-y:hidden;
     }
     .one .overlay{
-        bottom:32rem;
-        height: 32rem;
+        bottom:31vw;
+        height: 33vw;
     }
     .one .overlay h2, .one .overlay h5{
         top: 13rem;
+        font-size: 1.7vw;
     }
     .two .container{
-        top: 4rem;
-        height: 50rem;
+        top:3.1vw;
+        overflow-y: hidden;
+        height: 46svw;
     }
-    .three .overlay{
-        bottom:31rem;
-        height: 25rem;
+    .two .overlay{
+        bottom:50vw;
+        height: 55vw;
+    }
+    .two .overlay h2{
+        font-size: 2vw;
+    }
+    .two .overlay h5{
+        font-size: 1.5vw;
     }
     .three .container{
-        height: 25rem;
+        position: relative;
+        top:-0.7vw;
+    }
+    .three .overlay{
+        bottom:25vw;
+        height: 25vw;
+    }
+    .three .overlay h2 {
+        font-size: 2vw;
+    }
+    .three .overlay h5{
+        font-size: 1.5vw;
     }
     .four .container{
-        height: 26rem;
+        height: 20vw;
     }
     .four .overlay{
-        bottom:28.5rem;
-        height: 26rem;
+        bottom:24vw;
+        height: 24vw;
+    }
+    .four .overlay h2{
+        font-size: 2vw;
+    }
+    .four .overlay h5{
+        font-size: 1.5vw;
     }
     .five .container{
-        height: 26rem;
+        height: 20vw;
+        position: relative;
+        top:2.2vw;
     }
     .five .overlay{
-        bottom:28.5rem;
-        height: 26rem;
+        bottom:28vw;
+        height: 28vw;
+    }
+    .five .overlay h2{
+        font-size: 2vw;
+    }
+    .five .overlay h5{
+        font-size: 1.5vw;
     }
     .five .overlay h2, .five .overlay h5{
         top: 11rem;
@@ -427,108 +532,229 @@ img{
     .full{
         height: 10rem;
     }
-    
+    .credit h8{
+        font-size: 1vw;
+    }
+    .pictures{
+        transition:all 500ms ease;
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:1050px){
+    .one .overlay h2, .one .overlay h5{
+        top:18vw;
+    }
+    .one .overlay{
+        height: 31vw;
+    }
+    .pictures{
+        transition:all 500ms ease;
+    }
 }
 /*========================MEDIA QUEIRES ===========================*/
 @media screen and (max-width:992px){
-    .pictures{
+    element.style{
         position: relative;
-        bottom:8rem;
+        left: 0.5rem;
     }
-    .one .overlay{
-        height: 23rem;
-        bottom: 23rem;
-    }
-    .one .overlay h2, .one .overlay h5{
-        top: 10rem;
-    }
-    .two{
-        position: relative;
-        top:-2rem
-    }
-    .three .overlay{
-        bottom:22rem;
-        height: 22rem;
-    }
-    .four .overlay{
-        height: 20.5rem;
-        bottom:20.5rem;
-    }
-    .four .overlay h2, .four .overlay h5{
-        top:8rem;
-    }
-    .five .overlay{
-        bottom:20.5rem;
-        height: 20.5rem;
-    }
-    .five .overlay h2, .five .overlay h5{
-        top: 8rem;
+    .left{
+        position: inherit;
     }
     .right{
         position: relative;
-        top:-2rem;
     }
-    .five{
-        position: inherit;
-        top:-1rem;
+    .one .container{
+        position: relative;
+        height: 46vw;
+    }
+    .one .overlay{
+        bottom: 46vw;
+        height: 46vw;
+    }
+    .one .overlay h2{
+        font-size: 2.5vw;
+    }
+    .one .overlay h5{
+        font-size: 2vw;
+    }
+    .two .container{
+        position: relative;
+        height: 100vw;
+    }
+    .two .overlay{
+        bottom:100vw;
+        height: 100vw;
+    }
+    .two .overlay h2{
+        font-size: 2.5vw;
+        position: relative;
+        top:40vw;
+    }
+    .two .overlay h5{
+        font-size: 2vw;
+        position: relative;
+        top:40vw;
+    }
+    .right{
+        position: relative;
+        top:9vw;
+    }
+    .three .container{
+        height: 45vw;
+    }
+    .three .overlay{
+        bottom:50vw;
+        height: 50vw;
+    }
+    .three .overlay h2{
+        font-size: 2.5vw;
+        position: relative;
+        top:25vw;
+    }
+    .three .overlay h5{
+        font-size: 2vw;
+        position: relative;
+        top:25vw;
+    }
+    .four .container{
+        height: 42vw;
+    }
+    .four .overlay{
+        bottom:50vw;
+        height: 50vw;
+    }
+    .four .overlay h2{
+        font-size: 2.5vw;
+        position: relative;
+        top:25vw;
+    }
+    .four .overlay h5{
+        font-size: 2vw;
+        position: relative;
+        top:25vw;
+    }
+    .five .container{
+        height: 41vw;
+    }
+    .five .overlay{
+        bottom:45vw;
+        height: 45vw;
+    }
+    .five .overlay h2{
+        font-size: 2.5vw;
+        position: relative;
+        top:20vw;
+    }
+    .five .overlay h5{
+        font-size: 2vw;
+        position: relative;
+        top: 20vw;
     }
     .credit{
         position: relative;
-        top:-23rem;
+        top: 230vw;
+    }
+    .credit h8{font-size:1.5vw;}
+    .pictures{
+        transition:all 500ms ease;
     }
 }
     /*========================MEDIA QUEIRES ===========================*/
 @media screen and (max-width:768px){
-    .left{
-        position: relative;
-        top:3rem;
-        height: 74rem;
-    }
     .one .container{
-        height: 16rem;
+        height: 43vw;
     }
     .one .overlay{
-        height: 16rem;
-        bottom:16rem;
+        height: 50vw;
+        bottom:45vw;
     }
-    .one .overlay h2, .one .overlay h5{
-        top:6rem;
+    .one .overlay h2{
+        top:20vw;
+    }
+    .one .overlay h5{
+        top:20vw;
     }
     .two .container{
-        height: 33rem;
+        height: 100vw;
     }
-    .two .overlay h2, .two .overlay h5{
-        top:30rem;
+    .two .overlay h2 {
+        top:40vw;
+    }
+    .two .overlay h5{
+        top:40vw;
     }
     .three .overlay h2, .three .overlay h5{
-        top:12rem;
-    }
-    .four .overlay h2, .four .overlay h5{
-        top:11rem;
-    }
-    .five .overlay h2, .five .overlay h5{
-        top:11rem;
-    }
-    .right{
-        position: relative;
-        top:-13rem;
-        height: 50rem;
-    }
-    .four{
-        position: relative;
-        top:-4.5rem;
+        top:25vw;
     }
     .four .container{
-        height: 15rem;
-    }
-    .five{
         position: relative;
-        top:-5rem;
-        height: 1rem;
+        top: 0vw;
+        height: 40vw;
+    }
+    .four .overlay h2, .four .overlay h5{
+        top:27vw;
     }
     .five .container{
         position: relative;
-        height: 14.3rem;
+        top:4vw;
+        height: 41.1vw;
+    }
+    .five .overlay h2, .five .overlay h5{
+        top:23vw;
+    }
+    .pictures{
+        transition:all 500ms ease;
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:600px){
+    .two .container{
+        height:94vw;
+    }
+    .pictures{
+        transition:all 500ms ease;
+    }
+}
+/*========================MEDIA QUEIRES ===========================*/
+@media screen and (max-width:578px){
+    .test{
+        height: 15vw;
+    }
+    .test .graphic{
+        position: relative;
+        top: -17vw;
+    }
+    .work{
+        position: relative;
+        top:-10vw;
+    }
+    .work .nava:after{
+        position:absolute;
+        top:5vw;
+    }
+    .about{
+        position: relative;
+        top: -10vw;
+        left: 2vw;
+    }
+    .one .container{
+        position: relative;
+        height: 43vw;
+    }
+    .one .overlay{
+        height: 50vw;
+        bottom:50vw
+    }
+    .one .overlay h2{
+        position: relative;
+        top:25vw;
+    }
+    .one .overlay h5{
+        position: relative;
+        top: 25vw;
+    }
+    .pictures{
+        transition:all 500ms ease;
     }
 }
 
