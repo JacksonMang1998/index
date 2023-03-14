@@ -1,6 +1,7 @@
 body{
-    font-family: 'Montserrat', sans-serif;
-    bottom:0;
+  font-family: 'Montserrat', sans-serif;
+  bottom:0;
+  
 }
 .full{
     display:block;
@@ -33,7 +34,7 @@ body{
     height: 3px;
     width: 45px ;
     left: 9px;
-    bottom:2px;
+    bottom:8px;
     transition: all 100ms ease;
 }
 .navb:after{
@@ -63,7 +64,7 @@ h1{
     font-size: 40px;
     font-weight: 600;
     letter-spacing:0 ;
-    font-family: "monserrat" monospace, sans-serif;
+    font-family: monospace,sans-serif 'cormorant Garamond';
 }
 h6{
     font-size: 17px;
@@ -215,7 +216,7 @@ img{
 
 /*==============================POP UP===============================*/
 body {
-  font-family: Arial;
+  font-family: 'Montserrat', sans-serif;
   margin: 0;
 }
 
