@@ -26,10 +26,20 @@ h1{
     font-weight: 600;
     font-family: "monserrat" monospace, sans-serif;
 }
-h6{
-    font-size: 17px;
-    line-height: 1.7rem;
-}
+h3{
+    font-family: "montserrat";
+    font-size: 25px;
+  }
+  h2{
+    font-family: 'cormorant Garamond';
+    font-size: 35px;
+  }
+  h6{
+      font-size: 17px;
+      line-height: 22px;
+      font-family: "montserrat";
+      font-weight: 500;
+  }
 h7{
     font-size: 20px;
     text-decoration: none;
