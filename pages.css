@@ -66,8 +66,19 @@ h1{
     letter-spacing:0 ;
     font-family: monospace,sans-serif 'cormorant Garamond';
 }
+h3{
+  font-family: "montserrat";
+  font-size: 25px;
+}
+h2{
+  font-family: 'cormorant Garamond';
+  font-size: 35px;
+}
 h6{
     font-size: 17px;
+    line-height: 26px;
+    font-family: "montserrat";
+    font-weight: 300;
 }
 h7{
     font-size: 20px;
