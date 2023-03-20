@@ -67,8 +67,9 @@ h1{
     font-family: monospace,sans-serif 'cormorant Garamond';
 }
 h3{
-  font-family: "Montserrat";
-  font-size: 25px;
+  font-family: "montserrat";
+  font-size: 23px;
+  font-weight: 400;
 }
 h2{
   font-family: 'cormorant Garamond';
@@ -76,9 +77,9 @@ h2{
 }
 h6{
     font-size: 17px;
-    line-height: 26px;
-    font-family: "Montserrat";
-    font-weight: 300;
+    line-height: 22px;
+    font-family: "montserrat";
+    font-weight: 500;
 }
 h7{
     font-size: 20px;
@@ -89,6 +90,9 @@ h8{
 }
 .row{
     background:none;
+}
+.row7{
+    padding-top:1rem;
 }
 .test{
     margin: 0 0 0 0.3rem;
